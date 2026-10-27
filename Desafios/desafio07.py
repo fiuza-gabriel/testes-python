@@ -1,0 +1,5 @@
+print('============DESAFIO 07==============')
+print('Digite as notas para saber se passou de ano')
+n1 = int(input('1ºSEMESTRE = '))
+n2 = int(input('2ºSEMESTRE = '))
+print('Sua nota no 1ºSementre foi {} e no 2º Semestre {}, logo sua média é {}'. format(n1,n2,(n1+n2)/2))
