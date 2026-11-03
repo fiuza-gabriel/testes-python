@@ -1,2 +1,6 @@
 print('============DESAFIO 17==============')
-print('Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo, calcule e mostre o comprimento da hipotenusa.')
+ca = float(input('Tamanho do Cateto Adjacente = '))
+co = float(input('Tamanho do Cateto Oposto = '))
+hip = (ca**2) + (co**2)
+
+print('O Cateto Oposto vale {}cm, o Cateto Ajacente {}cm. Logo o a Hipotenusa é {:.2f}cm.'.format(co,ca,hip))
