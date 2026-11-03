@@ -1,5 +1,6 @@
 print('============DESAFIO 18==============')
 print('Crie um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.')
+
 import math
 angulo = float(input('Angulo desejado: '))
 seno = math.sin(math.radians(angulo))
