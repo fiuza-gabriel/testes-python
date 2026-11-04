@@ -1,5 +1,5 @@
 print('============DESAFIO 22==============')
-completo = input('Digite seu nome Completo = ')
+completo = str(input('Digite seu nome Completo = ')).strip()
 print(completo.upper())
 print(completo.lower())
 sem_esp = completo.replace(' ','')
