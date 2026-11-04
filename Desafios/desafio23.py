@@ -1,5 +1,5 @@
 print('============DESAFIO 23==============')
-numero = input('Digite um número de 0 a 9999: ')
+numero = str(input('Digite um número de 0 a 9999: ')).strip()
 
 print('Unidade:',numero[3])
 print('Dezena :',numero[2])
