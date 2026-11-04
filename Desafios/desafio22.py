@@ -1,2 +1,8 @@
 print('============DESAFIO 22==============')
-completo = 
+completo = input('Digite seu nome Completo = ')
+print(completo.upper())
+print(completo.lower())
+sem_esp = completo.replace(' ','')
+print('O nome completo tem:', len(sem_esp),'letras')
+dividido = completo.split()
+print('O Primeiro nome tem:', len(dividido[0]),'letras')
